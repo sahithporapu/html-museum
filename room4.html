@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableslists</title>
+    <link rel="icon" href="./download (8).jpeg">
+</head>
+
+<body style="background-color:rgb(197, 196, 196);">
+    <h4 align="right"><button><a href="./mainproject.html" style="text-decoration:none;">HOME PAGE</a> </button></h4>
+    <section style="text-align:center;color:black;">
+        <h2>📋 Tables in HTML</h2>
+
+        <p>
+            The <b>&lt;table&gt;</b> tag is used to display data in rows and columns, just like in Excel.
+        </p>
+
+
+        <p>
+            A table is made of:
+        <ul style="display: inline-block; text-align: left;">
+            <li><code>&lt;tr&gt;</code> Table Row</li>
+            <li><code>&lt;td&gt;</code> Table Data (cell)</li>
+            <li><code>&lt;th&gt;</code> Table Header (bold)</li>
+        </ul>
+        </p>
+
+        <p><b>Example:</b></p>
+        <table border="1" align="center">
+            <tr>
+                <th>Room</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>Room 1</td>
+                <td>Headings</td>
+            </tr>
+            <tr>
+                <td>Room 2</td>
+                <td>Formatting</td>
+            </tr>
+        </table>
+    </section>
+
+    <section style="text-align:center;color:black;">
+        <h2>📊 Rowspan and Colspan in Tables</h2>
+
+        <p>
+            In HTML tables, <b><code>colspan</code></b> and <b><code>rowspan</code></b> are attributes used to merge
+            cells:
+        </p>
+
+        <ul style="display: inline-block; text-align:left;">
+            <li><b><code>colspan</code></b> → Combines multiple <u>columns</u> into one cell (horizontal merge)</li>
+            <li><b><code>rowspan</code></b> → Combines multiple <u>rows</u> into one cell (vertical merge)</li>
+        </ul>
+
+        <h3>🧪 Colspan Example</h3>
+        <p>This table shows one heading spread across two columns.</p>
+
+        <table border="1" align="center">
+            <tr>
+                <th colspan="2">HTML Rooms</th>
+            </tr>
+            <tr>
+                <td>Room 1</td>
+                <td>Headings</td>
+            </tr>
+            <tr>
+                <td>Room 2</td>
+                <td>Paragraphs</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h3>🧪 Rowspan Example</h3>
+        <p>This table shows one room linked to two topics using rowspan.</p>
+
+        <table border="1" align="center">
+            <tr>
+                <th rowspan="2">Room 3</th>
+                <td>Images</td>
+            </tr>
+            <tr>
+                <td>Audio/Video</td>
+            </tr>
+        </table>
+    </section>
+
+    <br>
+    <hr style="background-color:black;height:1px;">
+
+    <section style="text-align:center;color:black;">
+        <h2>📝 Lists in HTML</h2>
+
+        <p>
+            HTML supports two main types of lists:
+        </p>
+
+        <ul style="text-align:center;display:inline-block">
+            <li><b>Ordered List</b> <code>&lt;ol&gt;</code>: Numbered list</li>
+            <li><b>Unordered List</b> <code>&lt;ul&gt;</code>: Bulleted list</li>
+        </ul>
+
+        <p><b>Example of Ordered List:</b></p>
+        <ol style="display:inline-block;text-align:left;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <p><b>Example of Unordered List:</b></p>
+        <ul style="display:inline-block;text-align:left">
+            <li>W3Schools</li>
+            <li>MDN</li>
+            <li>freeCodeCamp</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <link rel="icon" href="./download (8).jpeg">
+</head>
+
+<body style="background-color:rgb(197, 196, 196);">
+    <h4 align="right"><button><a href="./mainproject.html" style="text-decoration:none;">HOME PAGE</a> </button></h4>
+    <section style="text-align:center;">
+        <h2>🖼️ HTML &lt;iframe&gt; Tag</h2>
+
+        <p>
+            The <code>&lt;iframe&gt;</code> tag in HTML is used to embed another webpage or resource **within your
+            current webpage**.
+            It creates a "window" inside the page that can display videos, maps, websites, or documents from another
+            source.
+        </p>
+
+        <h3>🔍 What Does iframe Stand For?</h3>
+        <p>
+            <strong>iframe</strong> stands for <em>inline frame</em>. It acts like a mini browser window inside your
+            page.
+        </p>
+
+        <h3>🧩 Basic Syntax</h3>
+        <pre>
+&lt;iframe src="https://www.example.com" width="400" height="300"&gt;&lt;/iframe&gt;
+  </pre>
+
+        <h3>📌 Common Attributes:</h3>
+        <ul style="display:inline-block;text-align:left;">
+            <li><code>src</code> URL of the page to embed</li>
+            <li><code>width</code> Width of the frame (in pixels or %)</li>
+            <li><code>height</code> Height of the frame</li>
+            <li><code>title</code> Accessible name for screen readers</li>
+            <li><code>allowfullscreen</code> Lets embedded video go fullscreen (for YouTube, etc.)</li>
+        </ul>
+
+        <h3>🌐 Example Embed YOUTUBE Video:</h3>
+        <p>Below is an embedded website using &lt;iframe&gt;:</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g_mMwylVJ80?si=ShjvRVOV9Svub099"
+            title="YouTube video player" style="border: 4px solid red;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>
+            You can use iframes to show Google Maps, YouTube videos, PDF files, and even other pages from your own site.
+        </p>
+        <p>
+            Also you can use iframes to link with text or image by using target attribute in anchor tag and name
+            attribute in iframe tag.
+        </p>
+        <a style="text-decoration:none;"
+            href="https://media.istockphoto.com/id/636475496/photo/portrait-of-brown-puppy-with-bokeh-background.jpg?s=612x612&w=0&k=20&c=Ot63dQOYplm0kLJdlSVWbtKGwGkuZfnfdwH5ry9a6EQ="
+            target="puppy">Click for Puppy Image</a><br><br>
+        <iframe style="border: 4px solid black;" height="315" width="560" src="" name="puppy"></iframe>
+
+        <h3>⚠️ Notes:</h3>
+        <ul style="display:inline-block;text-align:left;">
+            <li>Some websites block iframe embedding for security (you'll see a blank or error).</li>
+            <li>Too many iframes can slow down your page.</li>
+            <li>Use <code>title</code> for accessibility and better SEO.</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>

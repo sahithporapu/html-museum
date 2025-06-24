@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonsemantic</title>
+    <link rel="icon" href="./download (8).jpeg">
+</head>
+
+<body style="background-color:rgb(197, 196, 196);">
+    <h4 align="right"><button><a href="./mainproject.html" style="text-decoration:none;">HOME PAGE</a> </button></h4>
+    <section style="text-align:center;color:black;">
+        <h2>📦 What Are Non-Semantic Tags?</h2>
+
+        <p>
+            <strong>Non-semantic tags</strong> are HTML elements that <u>do not describe their meaning</u> to the
+            browser or the developer.
+            These tags are used mainly for layout and styling, but their purpose is not clear just by looking at them.
+        </p>
+
+        <p>
+            They tell the browser <em>"what to show"</em> but not <em>"what it means"</em>. You often need to use
+            classes or IDs
+            to explain their purpose.
+        </p>
+
+        <h3>🔹 Common Non-Semantic Tags</h3>
+
+        <table border="1" cellpadding="8" align="center">
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>Division tag a container used to group content</td>
+            </tr>
+            <tr>
+                <td>&lt;span&gt;</td>
+                <td>Inline container used to style parts of text</td>
+            </tr>
+        </table>
+
+        <h3>🆚 Semantic vs Non-Semantic</h3>
+        <ul style="display:inline-block;text-align:left;">
+            <li><strong>Semantic:</strong> &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt; tells the browser what the
+                content is</li>
+            <li><strong>Non-Semantic:</strong> &lt;div&gt;, &lt;span&gt; tells the browser how to group, not what it
+                means</li>
+        </ul>
+
+        <h3>📌 Example:</h3>
+        <p><strong>Non-semantic:</strong></p>
+        <pre>
+&lt;div id="main"&gt;
+  &lt;div class="title"&gt;Welcome to the HTML Museum&lt;/div&gt;
+  &lt;div class="content"&gt;This is where the content goes.&lt;/div&gt;
+&lt;/div&gt;
+  </pre>
+
+        <p>
+            Without reading the classes or IDs, we don't know what these divs are for.
+            That's why semantic tags are preferred today.
+        </p>
+
+        <h3>💡 Tip:</h3>
+        <p>
+            Use non-semantic tags only when there's <strong>no semantic alternative</strong> available.
+        </p>
+    </section>
+
+</body>
+
+</html>

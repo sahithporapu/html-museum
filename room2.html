@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anchortags & bookmarkings</title>
+    <link rel="icon" href="./download (8).jpeg">
+</head>
+
+<body style="background-color:rgb(197, 196, 196);">
+    <h4 align="right"><button><a href="./mainproject.html" style="text-decoration:none;">HOME PAGE</a> </button></h4>
+    <section>
+        <h2 id="anchor" style="color:black;text-align:center;">🔗 Anchor Tags in HTML</h2>
+
+        <p style="color:black;text-align:center;">
+            The <code>&lt;a&gt;</code> tag in HTML is called the "anchor" tag. It is used to create hyperlinks —
+            clickable text or images that can take users to another page, website, or section within the same page.
+        </p>
+
+        <p style="color:black;text-align:center;">
+            The <b>href</b> attribute (Hypertext REFerence) inside the <code>&lt;a&gt;</code> tag specifies the link's
+            destination. Without it, the link won't work.
+        </p>
+
+        <p style="color:black;text-align:center;">
+            Example:
+            <code>&lt;a href="https://www.google.com"&gt;Visit Google&lt;/a&gt;</code>
+        </p>
+
+        <p style="color:black;text-align:center;">
+            You can also use <code>target="_blank"</code> to open the link in a new tab:
+            <br>
+            <code>&lt;a href="https://www.google.com" target="_blank"&gt;Visit Google in New Tab&lt;/a&gt;</code>
+        </p>
+
+        <p style="color:black;text-align:center;">
+            Anchor tags can also link to IDs on the same page, creating internal navigation (bookmarks).
+        </p>
+
+        <p style="color:black;text-align:center;">
+            Example of an internal link:
+            <code>&lt;a href="#section2"&gt;Go to Section 2&lt;/a&gt;</code>
+        </p>
+        <h2 style="color:black;text-align:center;">🔗 Anchor Paths</h2>
+
+        <p style="color:black;text-align:center;"><b>1. External Link (Full URL):</b></p>
+        <p style="color:black;text-align:center;"><code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code>
+        </p>
+
+        <p style="color:black;text-align:center;"><b>2. Internal Link (Same Folder):</b></p>
+        <p style="color:black;text-align:center;"><code>&lt;a href="about.html"&gt;About Page&lt;/a&gt;</code></p>
+
+        <p style="color:black;text-align:center;"><b>3. Folder Link:</b></p>
+        <p style="color:black;text-align:center;"><code>&lt;a href="folder/page.html"&gt;Go to Page&lt;/a&gt;</code></p>
+
+        <p style="color:black;text-align:center;"><b>4. Bookmark (Same Page Section):</b></p>
+        <p style="color:black;text-align:center;"><code>&lt;a href="#section2"&gt;Jump to Section 2&lt;/a&gt;</code></p>
+
+
+    </section>
+    <section style="text-align:center;">
+        <br>
+        <h5 style="color:black;text-align:center;">
+            Example of links:
+            <br>
+        </h5>
+        <a href="https://www.google.com/search?q=google&rlz=1C1CHBF_enIN1004IN1005&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyGAgBEC4YQxiDARjHARixAxjRAxiABBiKBTIGCAIQRRg8MgYIAxAFGEAyBggEEEUYPDIGCAUQRRg8MgYIBhBFGEEyBggHEEUYQdIBCDI1MTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
+            target="_blank" style="text-decoration:none;color:black;text-align:center;">Click on it google</a>
+        <a href="https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/story_full_width/36fcoamev0_Mountain_Gorilla_Silverback_WW22557.jpg"
+            target="_blank" style="text-decoration:none;color:black;text-align:center;">images</a>
+        <a href="https://youtu.be/TDWMzsykVVI?si=V6RD02deq5sVPWF0" target="_blank"
+            style="text-decoration:none;color:black;text-align:center;">videos</a>
+        <a href="mainproject.html" target="_blank" style="text-decoration:none;color:black;text-align:center;">path</a>
+    </section>
+
+    <hr style="background-color:black; height: 1px;">
+
+    <section>
+        <h2 style="color:black;text-align:center;">🔖 Bookmarking in HTML</h2>
+
+        <p style="color:black;text-align:center;">
+            Bookmarking lets you create internal links that jump to a specific section on the same page.
+            This is done using the <code>&lt;a href="#id"&gt;</code> syntax, where the <code>id</code> refers to a
+            section with that matching <code>id</code> attribute.
+        </p>
+
+
+
+
+    </section>
+
+    <p style="color:black;text-align:center;">
+        Example of a link to a section:
+        <br>
+    </p>
+
+    <a style="text-decoration:none;text-align:center;" href="#anchor">
+        <h2>Go to anchor tags </h2>
+    </a>
+    <p style="color:black;text-align:center;">i used hyper reference link here with the id value and the same value is
+        stored in anchor tags heading with id attribute , so use ref link in which you want to click and use id
+        attribute with # in where you want to navigat</p>
+
+
+</body>
+
+</html>

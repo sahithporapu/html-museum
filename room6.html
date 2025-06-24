@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="icon" href="./download (8).jpeg">
+</head>
+
+<body style="background-color:rgb(197, 196, 196);">
+    <h4 align="right"><button><a href="./mainproject.html" style="text-decoration:none;">HOME PAGE</a> </button></h4>
+    <section style="text-align:center;color:black;">
+        <h2>🧾 HTML Form Elements</h2>
+
+        <h3>📌 &lt;form&gt;</h3>
+        <p>
+            The <code>&lt;form&gt;</code> tag is used to create a section that collects user input.
+            It can include fields like name, email, and feedback.
+            When the form is submitted, the data is sent to a server or processed by the browser.
+        </p>
+
+        <h3>🏷 &lt;label&gt;</h3>
+        <p>
+            The <code>&lt;label&gt;</code> tag gives a name or description to an input field.
+            It improves accessibility and allows users to click the label to focus the input.
+            It connects to an input using the <code>for</code> attribute.
+        </p>
+
+        <h3>✍️ &lt;input&gt;</h3>
+        <p>
+            The <code>&lt;input&gt;</code> tag is used to collect user information.
+            It supports various types such as <code>text</code>, <code>number</code>, <code>email</code>,
+            <code>password</code>, <code>checkbox</code>, and more.
+        </p>
+
+        <h3>📦 &lt;fieldset&gt;</h3>
+        <p>
+            The <code>&lt;fieldset&gt;</code> tag is used to group related form elements together.
+            It draws a box around the group, making the form more organized and readable.
+        </p>
+
+        <h3>🏷 &lt;legend&gt;</h3>
+        <p>
+            The <code>&lt;legend&gt;</code> tag is used inside a <code>&lt;fieldset&gt;</code> to give a title or
+            heading to the grouped section.
+            It helps users understand what that section of the form is about.
+        </p>
+    </section>
+    <br>
+    <hr style="background-color:black;height:1px;"><br>
+    <div align="center">
+        <section style="background-color:darkgray;width:1000px;text-align:center;">
+            <fieldset>
+                <h2>📨 HTML Form Elements Explained</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>
+                            👤 Contact Info
+                        </legend>
+                        <br>
+                        <label for="name">Name:</label><br>
+
+                        <!-- INPUT is used to collect user text input -->
+                        <input type="text" id="name" name="name"><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="password">Enter Password:</label><br>
+                        <input type="password" id="password" name="password"><br><br>
+                        <label for="age">Age:</label><br>
+                        <input type="number" id="age" name="age"><br><br>
+                        <form for="gender">Gender:</form>
+                        <input type="radio" id="gender" name="gender">Male
+                        <input type="radio" id="gender" name="gender">Female<br><br>
+                        <label for="date">Date of Birth:</label>
+                        <input id="date" type="date" name="date"><br><br>
+                        <label for="select">Enter Qualification:</label>
+                        <select id="select" name="select">
+                            <option value="btech">B.TECH</option>
+                            <option value="degree">DEGREE</option>
+                            <option value="mtech">M.TECH</option>
+                            <option value="mca">MCA</option>
+
+                        </select><br><br>
+
+                        <label for="file" style="background-color:white; color: black; padding: 8px; cursor: pointer;">
+                            📁 Upload File
+                        </label>
+                        <input id="file" type="file" name="file" style="display: none;"><br><br>
+
+
+                        <!-- SUBMIT button sends the form data -->
+                        <input type="submit" value="Submit">
+                    </fieldset>
+
+
+                </form>
+
+            </fieldset>
+        </section>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+<!- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The HTML Museum</title>
+  <link rel="icon" href="../menucardtask/101282760.webp" type="image/png">
+  <style>
+    body { font-family: Arial; margin: 0; padding: 0; }
+    header, footer { background-color: #333; color: white; padding: 10px 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    nav { background-color: #444; padding: 10px; text-align: center; }
+    section { padding: 30px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏛 Welcome to The HTML Museum</h1>
+    <p>Explore HTML concepts room by room</p>
+  </header>
+
+  <nav>
+    <a href="#room1">Room 1: Text</a>
+    <a href="#room2">Room 2: Links</a>
+    <a href="#room3">Room 3: Media</a>
+   
+  </nav>
+
+  <section id="intro">
+    <h2>🎫 Entrance Hall</h2>
+    <p>This museum is your interactive tour of HTML. Every section below is a different "room" that demonstrates real HTML elements in action.</p>
+    <p>Click on the nav bar to jump into the rooms and learn hands-on!</p>
+  </section>
+
+  <footer >
+    <p >© 2025 The HTML Museum | Designed by Sahith</p>
+  </footer>
+
+</body>
+</html> --
+<!-- 
+<main>
+  <h1>HTML Museum</h1>
+  <p>Welcome to the virtual tour of HTML elements.</p>
+</main> -->
+
+<!-- <main>
+  <section>
+    <h2>Room 1: Text Elements</h2>
+    <p>This section teaches paragraphs and headings.</p>
+  </section>
+
+  <section>
+    <h2>Room 2: Links</h2>
+    <p>This section shows how anchor tags work.</p>
+  </section>
+</main> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Main vs Section Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    main {
+      background-color: #f1f8ff;
+      padding: 30px;
+      border: 3px solid #2196f3;
+      margin: 20px;
+    }
+
+    section {
+      background-color: #e3f2fd;
+      padding: 20px;
+      border: 2px dashed #1976d2;
+      margin-bottom: 20px;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏛 HTML Museum</h1>
+    <p>Understanding the difference between &lt;main&gt; and &lt;section&gt;</p>
+  </header>
+
+  <!-Main content of the page -->
+  <!-- <main>
+    <h1>Main Content Area</h1>
+    <p>This area represents the <strong>main purpose</strong> of the page. It includes all the key content the page is meant to present.</p>
+
+    <Thematic sections inside main -->
+    <!-- <section>
+      <h2>Room 1: Headings & Paragraphs</h2>
+      <p>This section teaches you how to use headings like &lt;h1&gt;, &lt;h2&gt;, and paragraphs with &lt;p&gt;.</p>
+    </section>
+
+    <section>
+      <h2>Room 2: Links & Bookmarks</h2>
+      <p>This section explains how to navigate using &lt;a href&gt; links and in-page bookmarks using ID attributes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 The HTML Museum | Curated by Sahith</p> -->
+  <!-- </footer> -->
+
+<!-- </body> -->
+<!-- </html>  
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Museum Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      position: relative;
+    }
+
+    /* Hide checkbox */
+    #menu-toggle {
+      display: none;
+    }
+
+    /* Hamburger icon */
+    .menu-icon {
+      cursor: pointer;
+      width: 30px;
+      height: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .menu-icon span {
+      display: block;
+      height: 4px;
+      background: white;
+      border-radius: 2px;
+    }
+
+    /* Nav links */
+    nav {
+      display: none;
+      flex-direction: column;
+      background-color: #444;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    nav a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-bottom: 1px solid #555;
+    }
+
+    nav a:last-child {
+      border-bottom: none;
+    }
+
+    /* Show nav when checkbox is checked */
+    #menu-toggle:checked + label + nav {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The HTML Museum</h1>
+
+    <!- Hamburger Menu -->
+    <!-- <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" style="position: absolute; top: 20px; right: 20px;">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <a href="#room1">Room 1: Text</a>
+      <a href="#room2">Room 2: Links</a>
+      <a href="#room3">Room 3: Media</a>
+    </nav>
+  </header>
+
+  <main style="padding: 20px;">
+    <h2>Welcome!</h2>
+    <p>This is where the museum content begins...</p>
+  </main>
+
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <aside style="
+  background-color: #f4f4f4;
+  width: 200px;
+  padding: 15px;
+  float: left;
+  height: 100vh;
+  border-right: 2px solid #ccc;
+">
+  <h3>🧭 Sidebar</h3>
+  <ul>
+    <li><a href="#room1">Room 1</a></li>
+    <li><a href="#room2">Room 2</a></li>
+    <li><a href="#room3">Room 3</a></li>
+  </ul>
+</aside>
+
+<main style="margin-left: 220px; padding: 20px;">
+  <h1>Welcome to the HTML Museum</h1>
+  <p>This is the main content area. Use the sidebar to explore different rooms.</p>
+</main>
+
+</body>
+</html> -->
+<!-- 
+<aside style="
+  width: 250px;
+  float: left;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-right: 2px solid #ccc;
+  height: 100vh;
+  box-sizing: border-box;
+">
+  <h3 style="text-align: center;">📚 References</h3>
+  <ul style="list-style: none; padding-left: 0; font-size: 16px;">
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">🔗 MDN Web Docs – HTML</a></li>
+    <li><a href="https://www.w3schools.com/html/" target="_blank">🔗 W3Schools – HTML</a></li>
+    <li><a href="https://www.geeksforgeeks.org/html-tutorials/" target="_blank">🔗 GeeksforGeeks – HTML</a></li>
+    <li><a href="https://htmlreference.io/" target="_blank">🔗 HTML Reference</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">🔗 freeCodeCamp – Learn HTML</a></li>
+  </ul>
+</aside> -->
